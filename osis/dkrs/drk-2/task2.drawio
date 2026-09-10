@@ -1,0 +1,109 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Страница — 1" id="OjijNXr1Gur3TX37kdPQ">
+    <mxGraphModel dx="617" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nd_b5xVFBYmCtyedfGeP-1" target="Nd_b5xVFBYmCtyedfGeP-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-1" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nd_b5xVFBYmCtyedfGeP-2" target="Nd_b5xVFBYmCtyedfGeP-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-2" value="Ввод s&lt;div&gt;Ввод sub&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nd_b5xVFBYmCtyedfGeP-4" target="Nd_b5xVFBYmCtyedfGeP-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-4" value="result = копия s&lt;div&gt;len_s = длина s&lt;/div&gt;&lt;div&gt;len_sub = длина sub&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nd_b5xVFBYmCtyedfGeP-6" target="Nd_b5xVFBYmCtyedfGeP-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-6" value="i = 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="250" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nd_b5xVFBYmCtyedfGeP-8" target="Nd_b5xVFBYmCtyedfGeP-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-8" value="По всем символам&lt;div&gt;i &amp;lt;= len_s - len_sub&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="300" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nd_b5xVFBYmCtyedfGeP-10" target="Nd_b5xVFBYmCtyedfGeP-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nd_b5xVFBYmCtyedfGeP-10" target="Nd_b5xVFBYmCtyedfGeP-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-10" value="sub = s[i:i+len_sub]" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nd_b5xVFBYmCtyedfGeP-12" target="Nd_b5xVFBYmCtyedfGeP-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-12" value="result[i + j - 1] := sub[len_sub - j + 1]" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nd_b5xVFBYmCtyedfGeP-14" target="Nd_b5xVFBYmCtyedfGeP-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-14" value="i = i + len_sub" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-16" value="Да" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nd_b5xVFBYmCtyedfGeP-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="650" />
+              <mxPoint x="100" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-17" value="i = i + 1" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="230" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-19" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;rotation=-180;" parent="1" vertex="1">
+          <mxGeometry x="40" y="670" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nd_b5xVFBYmCtyedfGeP-20" target="Nd_b5xVFBYmCtyedfGeP-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-20" value="По всем символам" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="670" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-23" value="Нет&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="150" y="415" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nd_b5xVFBYmCtyedfGeP-24" target="Nd_b5xVFBYmCtyedfGeP-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-24" value="Вывод result" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nd_b5xVFBYmCtyedfGeP-26" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nl-HndcFTLqFC6OWQ4XU-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.667;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Nd_b5xVFBYmCtyedfGeP-10" edge="1" target="nl-HndcFTLqFC6OWQ4XU-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="450" as="sourcePoint" />
+            <mxPoint x="430" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nl-HndcFTLqFC6OWQ4XU-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="360" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nl-HndcFTLqFC6OWQ4XU-5" value="Это означает, что проводится сравнение подстроки sub со строкой s от i до i + len_sub" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="360" width="180" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
